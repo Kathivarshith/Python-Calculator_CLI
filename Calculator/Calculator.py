@@ -13,9 +13,12 @@ elif operation == "/":
         result = number1 / number2
     else:
         result = "Error: Division by zero is not allowed."
+else:
+    result = "Error: Invalid operation."
 
 
 print("The result is:", result)
+
 
 
 
